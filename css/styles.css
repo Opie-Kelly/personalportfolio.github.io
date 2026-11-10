@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: skyblue;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    color: darkblue;
+}
+
+nav {
+    background-color: midnightblue;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid paleturquoise;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: darkblue;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.project {
+    background-color: aliceblue;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px solid paleturquoise;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: darkblue;
+}
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 600px) {
+
+    main {
+        width: 100%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+}
